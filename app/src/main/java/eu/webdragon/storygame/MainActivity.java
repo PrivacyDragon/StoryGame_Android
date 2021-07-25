@@ -1,11 +1,19 @@
 package eu.webdragon.storygame;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import android.app.Dialog;
+import android.content.Context;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.Arrays;
 import java.util.Dictionary;
 import java.util.Hashtable;
 
@@ -14,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView text_Random;
     int wordNumber;
-    String[] Words = {"DRAGON","COMPUTER","NOTE","CALCULATE","CASTLE","HARP","WORLD",
+    CharSequence[] Words = {"DRAGON","COMPUTER","NOTE","CALCULATE","CASTLE","HARP","WORLD",
             "SEA","BOOK","WIZARD","TREE","PLANE","JUNGLE","TEMPLE","CACKE",
             "CHICKEN","DEVICE","BOTTLE","DOG","BEER","MOON","SPACESHIP","FIREWORK",
             "VOLCANO","STORM","POETRY","FLOWER","PYTHON","TIME","ICE","THUNDER",
@@ -37,10 +45,13 @@ public class MainActivity extends AppCompatActivity {
                         "button11", "button12", "button13", "button14",
                         "button15", "button16"};
     int[] Used = {999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999};
+    CharSequence[] filledWith = {""};
     int filled = 0;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        //setSupportActionBar(myToolbar);
         boolean duplicate;
         Buttons.put("button1", 0);
         Buttons.put("button2", 1);
@@ -58,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         Buttons.put("button14", 13);
         Buttons.put("button15", 14);
         Buttons.put("button16", 15);
-        if (Used[15] == 999) {
+        if (savedInstanceState == null) {
             for (int i = 0; i < 16; i++) {
                 text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
                 do {
@@ -74,13 +85,33 @@ public class MainActivity extends AppCompatActivity {
                 Used[i] = wordNumber;
                 text_Random.setText(Words[wordNumber]);
             }
-        } else {
-            for (int i=0; i<16; i++) {
-                text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
-                text_Random.setText(Words[Used[i]]);
+        }
+    }
+    protected void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putIntArray("Used",Used);
+        savedInstanceState.putCharSequenceArray("filledWith", filledWith);
+        savedInstanceState.putInt("filled", filled);
+    }
+    protected void onRestoreInstanceState(Bundle savedInstanceState){
+        super.onRestoreInstanceState(savedInstanceState);
+        Used = savedInstanceState.getIntArray("Used");
+        filledWith = savedInstanceState.getCharSequenceArray("filledWith");
+        filled = savedInstanceState.getInt("filled");
+        for (int i=0; i<16; i++) {
+            text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
+            text_Random.setText(Words[Used[i]]);
+            if(filled>0) {
+                for (int j=0; j<=filled; j++) {
+                    if (filledWith[j] == Words[Used[i]]) {
+                        text_Random.setText("[Used Button]");
+                        TextView placeHolder = (TextView) findViewById(getResources().getIdentifier(Numbers[j-1], "id", this.getPackageName()));
+                        placeHolder.setText(Words[Used[i]]);
+                    }
+
+                }
             }
         }
-
     }
     public void buttonPress(View view) {
         Button button = (Button) findViewById(view.getId());
@@ -90,6 +121,17 @@ public class MainActivity extends AppCompatActivity {
             button.setText("[Used Button]");
             placeHolder.setText(word);
             filled++;
+            filledWith = Arrays.copyOf(filledWith, filledWith.length + 1);
+            filledWith[filledWith.length - 1] = word;
+
         }
+    }
+    public void infoPress(View view) {
+        AlertDialog.Builder dialogBuild = new AlertDialog.Builder(MainActivity.this);
+        ViewGroup viewStuff = findViewById(android.R.id.content);
+        View dialog = LayoutInflater.from(view.getContext()).inflate(R.layout.dialog, viewStuff, false);
+        dialogBuild.setView(dialog);
+        AlertDialog infoDialog = dialogBuild.create();
+        infoDialog.show();
     }
 }
