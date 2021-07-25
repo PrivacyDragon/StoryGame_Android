@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
     String[] Numbers = {"one", "two", "three", "four", "five", "six",
                         "seven", "eight", "nine", "ten", "eleven", "twelve",
                         "thirteen", "fourteen", "fifteen", "sixteen"};
+    String[] PlaceNumbers = {"[1]", "[2]", "[3]", "[4]", "[5]", "[6]", "[7]",
+                            "[8]", "[9]", "[10]", "[11]", "[12]", "[13]",
+                            "[14]", "[15]", "[16]"};
     Dictionary<String, Integer> Buttons = new Hashtable<String, Integer>();
 
     String[] ButtonsNr = {"button1", "button2", "button3", "button4","button5",
@@ -47,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     int[] Used = {999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999, 999};
     CharSequence[] filledWith = {""};
     int filled = 0;
+    Button lastClicked;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -92,12 +96,16 @@ public class MainActivity extends AppCompatActivity {
         savedInstanceState.putIntArray("Used",Used);
         savedInstanceState.putCharSequenceArray("filledWith", filledWith);
         savedInstanceState.putInt("filled", filled);
+        savedInstanceState.putInt("lastClickedId", lastClicked.getId());
+        //lastClicked.getId();
     }
     protected void onRestoreInstanceState(Bundle savedInstanceState){
         super.onRestoreInstanceState(savedInstanceState);
         Used = savedInstanceState.getIntArray("Used");
         filledWith = savedInstanceState.getCharSequenceArray("filledWith");
         filled = savedInstanceState.getInt("filled");
+        int lastClickedId = savedInstanceState.getInt("lastClickedId");
+        lastClicked = (Button) findViewById(lastClickedId);
         for (int i=0; i<16; i++) {
             text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
             text_Random.setText(Words[Used[i]]);
@@ -115,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void buttonPress(View view) {
         Button button = (Button) findViewById(view.getId());
+        lastClicked = button;
         CharSequence word = button.getText();
         if(word != "[Used Button]") {
             TextView placeHolder = (TextView) findViewById(getResources().getIdentifier(Numbers[filled], "id", this.getPackageName()));
@@ -134,4 +143,14 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog infoDialog = dialogBuild.create();
         infoDialog.show();
     }
+    public void redoButton(View view) {
+        if (filled>0 && lastClicked.getText() == "[Used Button]") {
+            CharSequence word = filledWith[filledWith.length - 1];
+            TextView placeHolder = (TextView) findViewById(getResources().getIdentifier(Numbers[filled - 1], "id", this.getPackageName()));
+            lastClicked.setText(word);
+            placeHolder.setText(PlaceNumbers[filled - 1]);
+            filled--;
+            filledWith = Arrays.copyOf(filledWith, filledWith.length - 1);
+        }
+     }
 }
