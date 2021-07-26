@@ -12,16 +12,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About"
+            android:text="@string/About_Title"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
         <TextView
+            android:id="@+id/infoDialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:autoLink="web"
-            android:text="StoryGame is a game based on StoryCubes.\nYou have to create a story with the words that are shown. These words are generated randomly.\nou can interpret the words in any way you like, that's what's so nice about the game.\nFurthermore, every story is correct!\nYou can play the game in any way you like; You can make a story individually, but in a group you can also choose to let everyone add something to the story.\n\n===\n\n(c)Privacy_Dragon, 2021\nThis game is lisenced under the BSD 3-clause 'New' or 'Revised' License.\nYou can view the source code and report bugs at: \nhttps://github.com/PrivacyDragon/StoryGame_Android\n\n===\n\nVersion: 0.3.0-Beta"
+            android:text="@string/About_Text"
             android:textAlignment="center"
             android:layout_gravity="center_horizontal"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
