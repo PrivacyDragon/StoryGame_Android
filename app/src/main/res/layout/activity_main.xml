@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="bottom"
@@ -32,8 +32,10 @@
             android:gravity="bottom"
             android:minHeight="46dp"
             android:orientation="vertical"
+            android:paddingBottom="30dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
 
             <TextView
                 android:id="@+id/one"
@@ -144,12 +146,13 @@
                 android:id="@+id/sixteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="38dp"
                 android:text="[16]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/scrollView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -292,10 +295,11 @@
                 style="@style/Widget.AppCompat.Button"
                 android:layout_width="150dp"
                 android:layout_height="45dp"
+                android:layout_marginBottom="38dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
     <Button
         android:id="@+id/button"
