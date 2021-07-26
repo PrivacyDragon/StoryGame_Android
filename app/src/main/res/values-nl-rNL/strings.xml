@@ -110,6 +110,7 @@
     <string name="word107">Muziek</string>
     <string name="Used_Button">[Gebruikte Knop]</string>
     <string name="Redo_Button">Ongedaan maken</string>
+    <string name="Again_Button">Genereer nieuwe woorden</string>
     <string name="Info_Button">Info</string>
     <string name="About_Title">Over</string>
     <string name="About_Text">StoryGame is een spel gebaseerd op StoryCubes. \n
@@ -127,5 +128,5 @@
         \n
         === \n
         \n
-        Versie: 1.0.0</string>
+        Versie: 1.1.0</string>
 </resources>

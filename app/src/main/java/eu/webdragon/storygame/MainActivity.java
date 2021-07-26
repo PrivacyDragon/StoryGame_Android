@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         //setSupportActionBar(myToolbar);
-        boolean duplicate;
         Buttons.put("button1", 0);
         Buttons.put("button2", 1);
         Buttons.put("button3", 2);
@@ -63,23 +62,30 @@ public class MainActivity extends AppCompatActivity {
         Buttons.put("button15", 14);
         Buttons.put("button16", 15);
         if (savedInstanceState == null) {
-            CharSequence[] Words = getWords();
-            for (int i = 0; i < 16; i++) {
-                text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
-                do {
-                    wordNumber = (int) (Math.random() * Words.length);
-                    duplicate = false;
-                    for (int j = 0; j < 16; j++) {
-                        if (Used[j] == wordNumber) {
-                            duplicate = true;
-                            break;
-                        }
-                    }
-                } while (duplicate);
-                Used[i] = wordNumber;
-                text_Random.setText(Words[wordNumber]);
-            }
+            View grrr = null;
+            setUp(grrr);
         }
+    }
+    public void setUp(View shutUp) {
+        boolean duplicate;
+        CharSequence[] Words = getWords();
+         for (int i = 0; i < 16; i++) {
+             text_Random = (TextView) findViewById(getResources().getIdentifier(ButtonsNr[i], "id", this.getPackageName()));
+             TextView placeHolder = (TextView) findViewById(getResources().getIdentifier(Numbers[i], "id", this.getPackageName()));
+             placeHolder.setText(PlaceNumbers[i]);
+             do {
+                 wordNumber = (int) (Math.random() * Words.length);
+                 duplicate = false;
+                 for (int j = 0; j < 16; j++) {
+                     if (Used[j] == wordNumber) {
+                         duplicate = true;
+                         break;
+                     }
+                 }
+             } while (duplicate);
+             Used[i] = wordNumber;
+             text_Random.setText(Words[wordNumber]);
+         }
     }
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);

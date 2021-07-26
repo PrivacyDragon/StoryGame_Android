@@ -111,6 +111,7 @@
     <!--Buttons-->
     <string name="Used_Button">[Used Button]</string>
     <string name="Redo_Button">Redo</string>
+    <string name="Again_Button">Generate new words</string>
     <string name="Info_Button">Info</string>
     <!--About Dialog-->
     <string name="About_Title">About</string>
@@ -129,5 +130,5 @@
         \n
         === \n
         \n
-        Version: 1.0.0</string>
+        Version: 1.1.0</string>
 </resources>
