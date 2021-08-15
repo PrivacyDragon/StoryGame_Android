@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryGame</string>
+    <string name="word1">Draak</string>
+    <string name="word2">Computer</string>
+    <string name="word3">Aantekening</string>
+    <string name="word4">Bereken</string>
+    <string name="word5">Kasteel</string>
+    <string name="word6">Harp</string>
+    <string name="word7">Wereld</string>
+    <string name="word8">Zee</string>
+    <string name="word9">Boek</string>
+    <string name="word10">Magiër</string>
+    <string name="word11">Boom</string>
+    <string name="word12">Vliegtuig</string>
+    <string name="word13">Jungle</string>
+    <string name="word14">Tempel</string>
+    <string name="word15">Gebak</string>
+    <string name="word16">Kip</string>
+    <string name="word17">Apparaat</string>
+    <string name="word18">Fles</string>
+    <string name="word19">Hond</string>
+    <string name="word20">Bier</string>
+    <string name="word21">Maan</string>
+    <string name="word22">Ruimteschip</string>
+    <string name="word23">Vuurwerk</string>
+    <string name="word24">Vulkaan</string>
+    <string name="word25">Storm</string>
+    <string name="word26">Poëzie</string>
+    <string name="word27">Bloem</string>
+    <string name="word28">Python</string>
+    <string name="word29">Tijd</string>
+    <string name="word30">Ijs</string>
+    <string name="word31">Donder</string>
+    <string name="word32">Vuur</string>
+    <string name="word33">Heks</string>
+    <string name="word34">Hel</string>
+    <string name="word35">Gebouw</string>
+    <string name="word36">Brug</string>
+    <string name="word37">Stoel</string>
+    <string name="word38">Vogel</string>
+    <string name="word39">Rots</string>
+    <string name="word40">Zon</string>
+    <string name="word41">Sterren</string>
+    <string name="word42">Alien</string>
+    <string name="word43">Ufo</string>
+    <string name="word44">Staf</string>
+    <string name="word45">Sleutel</string>
+    <string name="word46">Slot</string>
+    <string name="word47">Hoek</string>
+    <string name="word48">Paard</string>
+    <string name="word49">Geit</string>
+    <string name="word50">Regen</string>
+    <string name="word51">Pijl</string>
+    <string name="word52">Oog</string>
+    <string name="word53">Klok</string>
+    <string name="word54">Springen</string>
+    <string name="word55">Vis</string>
+    <string name="word56">Masker</string>
+    <string name="word57">Pentagram</string>
+    <string name="word58">Zwaard</string>
+    <string name="word59">Dorp</string>
+    <string name="word60">Baby</string>
+    <string name="word61">Schildpad</string>
+    <string name="word62">Hut</string>
+    <string name="word63">Skelet</string>
+    <string name="word64">Schaduw</string>
+    <string name="word65">Monster</string>
+    <string name="word66">Zoeken</string>
+    <string name="word67">Kist</string>
+    <string name="word68">Slaap</string>
+    <string name="word69">Goud</string>
+    <string name="word70">Schrijven</string>
+    <string name="word71">Licht</string>
+    <string name="word72">Duisternis</string>
+    <string name="word73">Engel</string>
+    <string name="word74">Thor</string>
+    <string name="word75">Duivel</string>
+    <string name="word76">Eten</string>
+    <string name="word77">Gif</string>
+    <string name="word78">Labyrint</string>
+    <string name="word79">Dief</string>
+    <string name="word80">Kroon</string>
+    <string name="word81">Dwerg</string>
+    <string name="word82">Wolf</string>
+    <string name="word83">Markt</string>
+    <string name="word84">Prinses</string>
+    <string name="word85">Kerk</string>
+    <string name="word86">Dood</string>
+    <string name="word87">Visser</string>
+    <string name="word88">Serpent</string>
+    <string name="word89">Koning</string>
+    <string name="word90">Regenboog</string>
+    <string name="word91">Sneeuw</string>
+    <string name="word92">Harnas</string>
+    <string name="word93">Fee</string>
+    <string name="word94">Fiets</string>
+    <string name="word95">Loki</string>
+    <string name="word96">Verband</string>
+    <string name="word97">Bloed</string>
+    <string name="word98">Koningin</string>
+    <string name="word99">Ijland</string>
+    <string name="word100">Spel</string>
+    <string name="word101">Zuurstof</string>
+    <string name="word102">Plant</string>
+    <string name="word103">Zeep</string>
+    <string name="word104">Held</string>
+    <string name="word105">Olie</string>
+    <string name="word106">Schilderij</string>
+    <string name="word107">Muziek</string>
+    <string name="word108">Gereedschap</string>
+    <string name="word109">Stof</string>
+    <string name="word110">Ring</string>
+    <string name="word111">Magie</string>
+    <string name="Used_Button">[Gebruikte Knop]</string>
+    <string name="Redo_Button">Ongedaan maken</string>
+    <string name="Again_Button">Genereer nieuwe woorden</string>
+    <string name="Info_Button">Info</string>
+    <string name="About_Title">Over</string>
+    <string name="About_Text">StoryGame is een spel gebaseerd op StoryCubes. \n
+        Het doel is om een verhaal te maken met de woorden die u te zien krijgt. Deze woorden worden willekeurig gegenereerd. \n
+        U kunt een woord op meerdere manieren interpreteren. Dit is een van de dingen die StoryGame zo leuk maakt. \n
+        Tevens is ieder verhaal correct; Foute verhalen bestaan niet. \n
+        Dit spel is te spelen zoals u zelf wilt. Het is mogelijk om zelf met alle woorden een verhaal te maken, maar het is ook mogelijk om meerdere mensen om de beurt bij te laten dragen aan het verhaal. \n
+        \n
+        === \n
+        \n
+        ©Privacy_Dragon, 2021 \n
+        Dit programma is gelicenseerd onder de BSD 3-clause \'New\' or \'Revised\' License \n
+        U kunt de broncode bekijken en problemen melden via: \n
+        https://github.com/PrivacyDragon/StoryGame_Android \n
+        \n
+        === \n
+        \n
+        Versie: 1.1.1</string>
+</resources>

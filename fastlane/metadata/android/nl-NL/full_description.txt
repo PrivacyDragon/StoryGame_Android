@@ -1,0 +1,13 @@
+Het doel van dit spel is om een verhaal te maken met de woorden die worden gegenereerd.
+Een van de leuke dingen aan dit spel is dat de u de woorden op iedere mogelijke manier kan interpreteren.
+Ook is ieder verhaal correct, dus er bestaan geen foute verhalen.
+Het gaat er voornamelijk om dat u plezier heeft!
+
+Spelregels:
+* Woorden kunnen op talloze manieren worden opgevat.
+* Ieder verhaal is correct, hoe onlogisch het verhaal ook is.
+
+Hoe het spel werkt:
+Zodra u het programma opent worden er zestien willekeurige woorden uit een lijst gehaald van meer dan honderd woorden. Deze woorden worden aan de linkerkant van uw scherm neergezet.
+U kunt op deze woorden klikken, waarna ze aan de rechterkant zullen verschijnen. Zo kunt u de woorden op volgorde krijgen zoals u ze gebruikt in uw verhaal.
+Het is mogelijk dit spel individueel te spelen of in een groep. Meestal wordt het in een groep gespeeld waarbij een enkel persoon een verhaal maakt. Het is echter ook mogelijk om iedereen om de beurt aan het verhaal bij te laten dragen.
