@@ -2,6 +2,10 @@
 StoryGameCE ported to Android. <br>
 In this game the main goal is to make a story with the words you get. You can interpret the words in any way you like, that's what's so nice about the game. And also: every story is correct, no matter if it's logical or not. So have fun and tell stories! 
 
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/eu.webdragon.storygame/)
+
 ## Important Gamerules:
 - You can interpret a word in many different ways. (That's one of the nice things about this game)
 - Every story is correct. It doesn't matter if it's logical or not, everything is correct.
