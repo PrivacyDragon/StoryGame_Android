@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
              Used[i] = wordNumber;
              text_Random.setText(Words[wordNumber]);
          }
+         filled = 0; //Set the 'filled' variable back to 0, so regenerating words actually works...
     }
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
