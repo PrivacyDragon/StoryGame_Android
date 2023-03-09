@@ -1,0 +1,15 @@
+Das Hauptziel dieses Spiels ist, mit den Wörtern, die du erhältst, eine Geschichte zu erfinden.
+Du kannst die Wörter so interpretieren, wie du magst, das macht das Spiel interessant.
+Außerdem ist jede Geschichte richtig, egal, ob sie logisch ist, oder nicht. Also hab einfach Spaß und erzähl Geschichten!
+
+Regeln:
+* Jedes Wort kann auf viele verschiedene Arten interpretiert werden. (Das ist eines der guten Dinge an diesem Spiel.)
+* Jede Geschichte ist richtig. Es ist egal, ob sie logisch ist oder nicht, alles ist richtig.
+
+Details zum Spielablauf
+Wenn das Programm startet, werden sechzehn Wörter generiert (genauer gesagt: zufällig aus einer Liste von hundert Wörtern ausgewählt).
+Du denkst dir dann eine Geschichte mit diesen Wörtern aus, wobei du die Wörter auf jede Art interpretieren kannst. Eine wichtige Regel ist, dass jede Geschichte richtig ist. Es gibt keine falschen Geschichten.
+Du kannst das Spiel spielen, wie es dir am liebsten ist: Alleine oder mit Freunden. In einer Gruppe kann zum Beispiel einer mit einem Wort anfangen, der nächste mit einem anderen Wort die Geschichte fortsetzen, und so weiter.
+Es gibt zwei Spalten, eine für die Wörter, und eine, die am Anfang mit 1 bis 16 nummeriert ist, und im Laufe des Spiels die verwendeten Wörter aufnimmt. Tippe ein verwendetes Wort an, und es wird auf diese Liste geschrieben. So erhältst du eine Liste in der Reihenfolge, in der du die Wörter verwendet hast.
+
+Du kannst auch deine eigene Wortliste verwenden. Erstelle dazu eine Textdatei mit einem Wort pro Zeile. Damit das Programm diese Liste verwendet, klick das Bleistift-Symbol und wähle die Textdatei aus.

@@ -11,3 +11,5 @@ Once you run the program, sixteen words will be generated (*Pseudo-randomly take
 With this words you should make a story, and you can interpret the words in any possible way. An important rule is that every story is correct. there are isn't any wrong story.
 You can play the game in any way you like; You can make a story individually, but in a small group you can also do that everyone has to add something to the story so that someone begins with doing something with a word, then the next one goes further on it with another word, and then the next one does the same and so on.
 You have two columns, one of them contains the words, the other is numbered from 1 to 16. Tap on a word you want to use, and it will get on the list with used words. They will come there in the order you tap them.
+
+It is also possible to use custom words. You can choose to let the program use your own word list by clicking on the pencil icon and then selecting a text file with on each line a word.

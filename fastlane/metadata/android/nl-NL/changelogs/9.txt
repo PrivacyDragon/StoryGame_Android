@@ -1,0 +1,4 @@
+* De vertaling van 'Poetry' is veranderd van 'Poëzie' naar 'Gedicht', om meer mogelijkheden te geven.
+* Er zijn wat verbeteringen aangebracht in de code.
+* Er is nu de mogelijkheid om uw eigen woorden te gebruiken!
+* StoryGame is nu ook beschikbaar in het Duits.

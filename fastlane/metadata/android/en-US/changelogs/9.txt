@@ -1,0 +1,4 @@
+* You can now use custom word lists!
+* This release also brings German translations!
+* One bug has been fixed.
+* A bit of the code has been improved.

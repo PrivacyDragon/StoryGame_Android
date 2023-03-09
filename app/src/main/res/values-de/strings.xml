@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">StoryGame</string>
+    <!--Words-->
+    <!--When translating the words, it is the best option to choose translations that can be interpret in the most possible ways.
+    And if a word has several translations, choose the one which can interrpreted in the most ways.
+    I guess that's it.
+    Just change the words for their translations.
+    (The words are between the '<item></item>' things.-->
+    <string-array name="wordlist">
+        <item>Drache</item>
+        <item>Computer</item>
+        <item>Note</item>
+        <item>Berechnen</item>
+        <item>Schloss</item>
+        <item>Harfe</item>
+        <item>Welt</item>
+        <item>See</item>
+        <item>Buch</item>
+        <item>Zauberer</item>
+        <item>Baum</item>
+        <item>Ebene</item>
+        <item>Dschungel</item>
+        <item>Tempel</item>
+        <item>Torte</item>
+        <item>Huhn</item>
+        <item>Gerät</item>
+        <item>Flasche</item>
+        <item>Hund</item>
+        <item>Bier</item>
+        <item>Mond</item>
+        <item>Raumschiff</item>
+        <item>Feuerwerk</item>
+        <item>Vulkan</item>
+        <item>Sturm</item>
+        <item>Poesie</item>
+        <item>Blume</item>
+        <item>Python</item>
+        <item>Zeit</item>
+        <item>Eis</item>
+        <item>Donner</item>
+        <item>Feuer</item>
+        <item>Hexe</item>
+        <item>Hel</item>
+        <item>Gebäude</item>
+        <item>Brücke</item>
+        <item>Stuhl</item>
+        <item>Vogel</item>
+        <item>Fels</item>
+        <item>Sonne</item>
+        <item>Sterne</item>
+        <item>Alien</item>
+        <item>Ufo</item>
+        <item>Wand</item>
+        <item>Schlüssel</item>
+        <item>Schloss</item>
+        <item>Haken</item>
+        <item>Pferd</item>
+        <item>Ziege</item>
+        <item>Regen</item>
+        <item>Pfeil</item>
+        <item>Auge</item>
+        <item>Wache</item>
+        <item>Sprung</item>
+        <item>Fisch</item>
+        <item>Maske</item>
+        <item>Pentagramm</item>
+        <item>Schwert</item>
+        <item>Stadt</item>
+        <item>Baby</item>
+        <item>Schildkröte</item>
+        <item>Hütte</item>
+        <item>Skelett</item>
+        <item>Schatten</item>
+        <item>Monster</item>
+        <item>Suche</item>
+        <item>Kiste</item>
+        <item>Schlaf</item>
+        <item>Gold</item>
+        <item>Autor</item>
+        <item>Licht</item>
+        <item>Dunkelheit</item>
+        <item>Blickwinkel</item>
+        <item>Thor</item>
+        <item>Teufel</item>
+        <item>Nahrung</item>
+        <item>Gift</item>
+        <item>Labyrinth</item>
+        <item>Dieb</item>
+        <item>Krone</item>
+        <item>Zwerg</item>
+        <item>Wolf</item>
+        <item>Markt</item>
+        <item>Prinzessin</item>
+        <item>Kirche</item>
+        <item>Tote</item>
+        <item>Fischer</item>
+        <item>Schlange</item>
+        <item>König</item>
+        <item>Regenbogen</item>
+        <item>Schnee</item>
+        <item>Panzer</item>
+        <item>Fee</item>
+        <item>Fahrrad</item>
+        <item>Loki</item>
+        <item>Verband</item>
+        <item>Blut</item>
+        <item>Königin</item>
+        <item>Insel</item>
+        <item>Spiel</item>
+        <item>Sauerstoff</item>
+        <item>Pflanze</item>
+        <item>Seife</item>
+        <item>Held</item>
+        <item>Öl</item>
+        <item>Gemälde</item>
+        <item>Musik</item>
+        <item>Werkzeug</item>
+        <item>Staub</item>
+        <item>Ring</item>
+        <item>Magie</item>
+    </string-array>
+
+    <!--Buttons-->
+    <!--The button things and alt-texts. So the things between <string name="blahblah"></string> need to be translated.-->
+    <string name="Used_Button">[Verwendeter Knopf]</string>
+    <string name="Redo_Button">Nochmal</string>
+    <string name="Again_Button">Neue Wörter</string>
+    <string name="Custom_Button">Eigene Wortliste verwenden</string>
+    <string name="Info_Button">Info</string>
+    <!--About Dialog-->
+    <!--Here is the dialog.
+    This needs to be translated too, you can, if you want to, add a copyright mention for your translation.-->
+    <!--The '\n' things have to stay, they are newlines.-->
+    <string name="About_Title">Info</string>
+    <string name="About_Text">StoryGame basiert auf StoryCubes. \n
+		Denke dir eine Geschichte aus, die auf den gezeigten Wörtern basiert. Welche Wörter angezeigt werden, ist dem Zufall überlassen. \n
+		Du kannst die Wörter so interpretieren, wie du magst, das ist das Schöne an diesem Spiel. \n
+		Außerdem ist jede Geschichte richtig! \n
+		Du kannst dieses Spiel so spielen, wie es dir am liebsten ist; du kannst alleine eine Geschichte schaffen, aber eine Gruppe kann auch entscheiden, dass jeder etwas zu der Geschichte hinzufügt. \n
+		\n
+		Du kannst auch deine eigenen Wortlisten verwenden! Das geht so:\n
+		- Klicke auf das Bleistift-Symbol\n
+		- Wähle eine Textdatei aus, die ein Wort pro Zeile enthält. Es müssen mindestens 17 Wörter sein.\n
+		- Los geht\'s!\n
+        \n
+        === \n
+        \n
+        ©Privacy_Dragon, 2021-2023 \n
+        Dieses Spiel ist unter der 3-Klausel-BSD (auch \'New BSD License\' oder \'Revised BSD License\') lizensiert. \n
+        Den Quelltext und eine Möglichkeit, Probleme zu melden, findest du unter: \n
+        https://github.com/PrivacyDragon/StoryGame_Android \n
+        \n
+        === \n
+        \n
+        Version: 1.2.0</string>
+</resources>

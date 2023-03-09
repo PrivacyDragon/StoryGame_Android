@@ -173,7 +173,7 @@
             <Button
                 android:id="@+id/button1"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -181,7 +181,7 @@
             <Button
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -189,7 +189,7 @@
             <Button
                 android:id="@+id/button3"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -197,7 +197,7 @@
             <Button
                 android:id="@+id/button4"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -205,7 +205,7 @@
             <Button
                 android:id="@+id/button5"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -213,7 +213,7 @@
             <Button
                 android:id="@+id/button6"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -221,7 +221,7 @@
             <Button
                 android:id="@+id/button7"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -229,7 +229,7 @@
             <Button
                 android:id="@+id/button8"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -237,7 +237,7 @@
             <Button
                 android:id="@+id/button9"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -245,7 +245,7 @@
             <Button
                 android:id="@+id/button10"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -253,7 +253,7 @@
             <Button
                 android:id="@+id/button11"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -261,7 +261,7 @@
             <Button
                 android:id="@+id/button12"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -269,7 +269,7 @@
             <Button
                 android:id="@+id/button13"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -277,7 +277,7 @@
             <Button
                 android:id="@+id/button14"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -285,7 +285,7 @@
             <Button
                 android:id="@+id/button15"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
@@ -293,7 +293,7 @@
             <Button
                 android:id="@+id/button16"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="150dp"
+                android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:layout_marginBottom="38dp"
                 android:onClick="buttonPress"
@@ -320,7 +320,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:text="StoryGame"
+        android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
@@ -351,9 +351,22 @@
         android:layout_height="wrap_content"
         android:background="@color/purple_500"
         android:contentDescription="@string/Again_Button"
-        android:onClick="setUp"
+        android:onClick="reSet"
         android:tint="#F4C0B7"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:srcCompat="@android:drawable/ic_popup_sync" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/Custom_Button"
+        android:onClick="StartCustomWords"
+        android:background="@color/purple_500"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        app:layout_constraintStart_toEndOf="@id/imageButton2"
+        app:layout_constraintTop_toTopOf="@id/imageButton2"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="8dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+* Sie können jetzt benutzerdefinierte Wortlisten verwenden!
+* Diese Version bringt auch deutsche Übersetzungen.
+* Ein Fehler wurde behoben.
+* Ein Teil des Codes wurde verbessert.

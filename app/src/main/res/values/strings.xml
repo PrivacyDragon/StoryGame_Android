@@ -1,121 +1,125 @@
 <resources>
     <string name="app_name">StoryGame</string>
     <!--Words-->
-    <string name="word1">Dragon</string>
-    <string name="word2">Computer</string>
-    <string name="word3">Note</string>
-    <string name="word4">Calculate</string>
-    <string name="word5">Castle</string>
-    <string name="word6">Harp</string>
-    <string name="word7">World</string>
-    <string name="word8">Sea</string>
-    <string name="word9">Book</string>
-    <string name="word10">Wizard</string>
-    <string name="word11">Tree</string>
-    <string name="word12">Plane</string>
-    <string name="word13">Jungle</string>
-    <string name="word14">Temple</string>
-    <string name="word15">Cake</string>
-    <string name="word16">Chicken</string>
-    <string name="word17">Device</string>
-    <string name="word18">Bottle</string>
-    <string name="word19">Dog</string>
-    <string name="word20">Beer</string>
-    <string name="word21">Moon</string>
-    <string name="word22">Spaceship</string>
-    <string name="word23">Firework</string>
-    <string name="word24">Volcano</string>
-    <string name="word25">Storm</string>
-    <string name="word26">Poetry</string>
-    <string name="word27">Flower</string>
-    <string name="word28">Python</string>
-    <string name="word29">Time</string>
-    <string name="word30">Ice</string>
-    <string name="word31">Thunder</string>
-    <string name="word32">Fire</string>
-    <string name="word33">Witch</string>
-    <string name="word34">Hel</string>
-    <string name="word35">Building</string>
-    <string name="word36">Bridge</string>
-    <string name="word37">Chair</string>
-    <string name="word38">Bird</string>
-    <string name="word39">Rock</string>
-    <string name="word40">Sun</string>
-    <string name="word41">Stars</string>
-    <string name="word42">Alien</string>
-    <string name="word43">Ufo</string>
-    <string name="word44">Wand</string>
-    <string name="word45">Key</string>
-    <string name="word46">Lock</string>
-    <string name="word47">Hook</string>
-    <string name="word48">Horse</string>
-    <string name="word49">Goat</string>
-    <string name="word50">Rain</string>
-    <string name="word51">Arrow</string>
-    <string name="word52">Eye</string>
-    <string name="word53">Watch</string>
-    <string name="word54">Jump</string>
-    <string name="word55">Fish</string>
-    <string name="word56">Mask</string>
-    <string name="word57">Pentagram</string>
-    <string name="word58">Sword</string>
-    <string name="word59">Town</string>
-    <string name="word60">Baby</string>
-    <string name="word61">Turtle</string>
-    <string name="word62">Hut</string>
-    <string name="word63">Skeleton</string>
-    <string name="word64">Shadows</string>
-    <string name="word65">Monster</string>
-    <string name="word66">Search</string>
-    <string name="word67">Chest</string>
-    <string name="word68">Sleep</string>
-    <string name="word69">Gold</string>
-    <string name="word70">Writer</string>
-    <string name="word71">Light</string>
-    <string name="word72">Darkness</string>
-    <string name="word73">Angle</string>
-    <string name="word74">Thor</string>
-    <string name="word75">Devil</string>
-    <string name="word76">Food</string>
-    <string name="word77">Poison</string>
-    <string name="word78">Labyrinth</string>
-    <string name="word79">Thief</string>
-    <string name="word80">Crown</string>
-    <string name="word81">Dwarf</string>
-    <string name="word82">Wolf</string>
-    <string name="word83">Market</string>
-    <string name="word84">Princess</string>
-    <string name="word85">Church</string>
-    <string name="word86">Dead</string>
-    <string name="word87">Fisher</string>
-    <string name="word88">Serpent</string>
-    <string name="word89">King</string>
-    <string name="word90">Rainbow</string>
-    <string name="word91">Snow</string>
-    <string name="word92">Armour</string>
-    <string name="word93">Fairy</string>
-    <string name="word94">Bike</string>
-    <string name="word95">Loki</string>
-    <string name="word96">Bandage</string>
-    <string name="word97">Blood</string>
-    <string name="word98">Queen</string>
-    <string name="word99">Island</string>
-    <string name="word100">Game</string>
-    <string name="word101">Oxygen</string>
-    <string name="word102">Plant</string>
-    <string name="word103">Soap</string>
-    <string name="word104">Hero</string>
-    <string name="word105">Oil</string>
-    <string name="word106">Painting</string>
-    <string name="word107">Music</string>
-    <string name="word108">Tool</string>
-    <string name="word109">Dust</string>
-    <string name="word110">Ring</string>
-    <string name="word111">Magic</string>
+    <string-array name="wordlist">
+        <item>Dragon</item>
+        <item>Computer</item>
+        <item>Note</item>
+        <item>Calculate</item>
+        <item>Castle</item>
+        <item>Harp</item>
+        <item>World</item>
+        <item>Sea</item>
+        <item>Book</item>
+        <item>Wizard</item>
+        <item>Tree</item>
+        <item>Plane</item>
+        <item>Jungle</item>
+        <item>Temple</item>
+        <item>Cake</item>
+        <item>Chicken</item>
+        <item>Device</item>
+        <item>Bottle</item>
+        <item>Dog</item>
+        <item>Beer</item>
+        <item>Moon</item>
+        <item>Spaceship</item>
+        <item>Firework</item>
+        <item>Volcano</item>
+        <item>Storm</item>
+        <item>Poetry</item>
+        <item>Flower</item>
+        <item>Python</item>
+        <item>Time</item>
+        <item>Ice</item>
+        <item>Thunder</item>
+        <item>Fire</item>
+        <item>Witch</item>
+        <item>Hel</item>
+        <item>Building</item>
+        <item>Bridge</item>
+        <item>Chair</item>
+        <item>Bird</item>
+        <item>Rock</item>
+        <item>Sun</item>
+        <item>Stars</item>
+        <item>Alien</item>
+        <item>Ufo</item>
+        <item>Wand</item>
+        <item>Key</item>
+        <item>Lock</item>
+        <item>Hook</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Rain</item>
+        <item>Arrow</item>
+        <item>Eye</item>
+        <item>Watch</item>
+        <item>Jump</item>
+        <item>Fish</item>
+        <item>Mask</item>
+        <item>Pentagram</item>
+        <item>Sword</item>
+        <item>Town</item>
+        <item>Baby</item>
+        <item>Turtle</item>
+        <item>Hut</item>
+        <item>Skeleton</item>
+        <item>Shadows</item>
+        <item>Monster</item>
+        <item>Search</item>
+        <item>Chest</item>
+        <item>Sleep</item>
+        <item>Gold</item>
+        <item>Writer</item>
+        <item>Light</item>
+        <item>Darkness</item>
+        <item>Angle</item>
+        <item>Thor</item>
+        <item>Devil</item>
+        <item>Food</item>
+        <item>Poison</item>
+        <item>Labyrinth</item>
+        <item>Thief</item>
+        <item>Crown</item>
+        <item>Dwarf</item>
+        <item>Wolf</item>
+        <item>Market</item>
+        <item>Princess</item>
+        <item>Church</item>
+        <item>Dead</item>
+        <item>Fisher</item>
+        <item>Serpent</item>
+        <item>King</item>
+        <item>Rainbow</item>
+        <item>Snow</item>
+        <item>Armour</item>
+        <item>Fairy</item>
+        <item>Bike</item>
+        <item>Loki</item>
+        <item>Bandage</item>
+        <item>Blood</item>
+        <item>Queen</item>
+        <item>Island</item>
+        <item>Game</item>
+        <item>Oxygen</item>
+        <item>Plant</item>
+        <item>Soap</item>
+        <item>Hero</item>
+        <item>Oil</item>
+        <item>Painting</item>
+        <item>Music</item>
+        <item>Tool</item>
+        <item>Dust</item>
+        <item>Ring</item>
+        <item>Magic</item>
+    </string-array>
+
     <!--Buttons-->
     <string name="Used_Button">[Used Button]</string>
     <string name="Redo_Button">Redo</string>
     <string name="Again_Button">Generate new words</string>
+    <string name="Custom_Button">Use your own word list</string>
     <string name="Info_Button">Info</string>
     <!--About Dialog-->
     <string name="About_Title">About</string>
@@ -125,14 +129,19 @@
         Furthermore, every story is correct! \n
         You can play the game in any way you like; You can make a story individually, but in a group you can also choose to let everyone add something to the story. \n
         \n
+        You can use your own word lists too! How to do this:\n
+        - Click the pencil button.\n
+        - Select a text file containing one word on every line. However, there must be at least 17 words.\n
+        - Play!\n
+        \n
         === \n
         \n
-        ©Privacy_Dragon, 2021 \n
+        ©Privacy_Dragon, 2021-2023 \n
         This game is licensed under the BSD 3-clause \'New\' or \'Revised\' License. \n
         You can view the source code and report bugs at: \n
         https://github.com/PrivacyDragon/StoryGame_Android \n
         \n
         === \n
         \n
-        Version: 1.1.1</string>
+        Version: 1.2.0</string>
 </resources>

@@ -1,0 +1,1 @@
+In diesem Spiel denkst du dir basierend auf einer zufälligen Wortliste eine Geschichte aus.

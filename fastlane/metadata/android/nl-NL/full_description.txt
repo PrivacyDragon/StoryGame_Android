@@ -11,3 +11,5 @@ Hoe het spel werkt:
 Zodra u het programma opent worden er zestien willekeurige woorden uit een lijst gehaald van meer dan honderd woorden. Deze woorden worden aan de linkerkant van uw scherm neergezet.
 U kunt op deze woorden klikken, waarna ze aan de rechterkant zullen verschijnen. Zo kunt u de woorden op volgorde krijgen zoals u ze gebruikt in uw verhaal.
 Het is mogelijk dit spel individueel te spelen of in een groep. Meestal wordt het in een groep gespeeld waarbij een enkel persoon een verhaal maakt. Het is echter ook mogelijk om iedereen om de beurt aan het verhaal bij te laten dragen.
+
+De app biedt u ook de mogelijkheid om uw eigen woordenlijst te gebruiken. Als u wil dat uw eigen woorden gebruikt worden, dan kan u dat doen door op het potlood-icoontje te klikken. Vervolgens selecteert u het tekstbestand waarin de woorden staan. Let wel, op iedere regel moet een woord staan.
