@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">StoryGame</string>
+    <!--Words-->
+    <string-array name="wordlist">
+        <item>Dragon</item>
+        <item>Ordinateur</item>
+        <item>Note</item>
+        <item>Calculer</item>
+        <item>Château</item>
+        <item>Harpe</item>
+        <item>Monde</item>
+        <item>Mer</item>
+        <item>Livre</item>
+        <item>Sorcier</item>
+        <item>Arbre</item>
+        <item>Avion</item>
+        <item>Jungle</item>
+        <item>Temple</item>
+        <item>Gâteau</item>
+        <item>Poulet</item>
+        <item>Appareil</item>
+        <item>Bouteille</item>
+        <item>Chien</item>
+        <item>Bière</item>
+        <item>Lune</item>
+        <item>Vaisseau spaciale</item>
+        <item>Feu d'artifice</item>
+        <item>Volcan</item>
+        <item>Tempête</item>
+        <item>Poésie</item>
+        <item>Fleur</item>
+        <item>Python</item>
+        <item>Temps</item>
+        <item>Glace</item>
+        <item>Tonnerre</item>
+        <item>Feu</item>
+        <item>Sorcière</item>
+        <item>Enfer</item>
+        <item>Bâtiment</item>
+        <item>Pont</item>
+        <item>Chaise</item>
+        <item>Oiseau</item>
+        <item>Pierre</item>
+        <item>Soleil</item>
+        <item>Étoiles</item>
+        <item>Alien</item>
+        <item>Ovni</item>
+        <item>Baguette</item>
+        <item>Clé</item>
+        <item>Verrou</item>
+        <item>Crochet</item>
+        <item>Cheval</item>
+        <item>Chèvre</item>
+        <item>Pluie</item>
+        <item>Flèche</item>
+        <item>Œil</item>
+        <item>Montre</item>
+        <item>Saut</item>
+        <item>Poisson</item>
+        <item>Masque</item>
+        <item>Pentagramme</item>
+        <item>Épée</item>
+        <item>Ville</item>
+        <item>Bébé</item>
+        <item>Tortue</item>
+        <item>Hutte</item>
+        <item>Squelette</item>
+        <item>Ombres</item>
+        <item>Monstre</item>
+        <item>Recherche</item>
+        <item>Coffre</item>
+        <item>Repos</item>
+        <item>Or</item>
+        <item>Écrivain⋅e</item>
+        <item>Lumière</item>
+        <item>Obscurité</item>
+        <item>Angle</item>
+        <item>Thor</item>
+        <item>Diable</item>
+        <item>Nourriture</item>
+        <item>Poison</item>
+        <item>Labyrinthe</item>
+        <item>Voleur</item>
+        <item>Couronne</item>
+        <item>Nain</item>
+        <item>Loup</item>
+        <item>Marché</item>
+        <item>Princesse</item>
+        <item>Église</item>
+        <item>Mort</item>
+        <item>Pêcheur⋅euse</item>
+        <item>Serpent</item>
+        <item>R</oiitem>
+        <item>Arc-en-ciel</item>
+        <item>Neige</item>
+        <item>Armure</item>
+        <item>Fée</item>
+        <item>Vélo</item>
+        <item>Loki</item>
+        <item>Bandage</item>
+        <item>Sang</item>
+        <item>Reine</item>
+        <item>Île</item>
+        <item>Jeu</item>
+        <item>Oxygène</item>
+        <item>Plante</item>
+        <item>Savon</item>
+        <item>Héro</item>
+        <item>Huile</item>
+        <item>Tableau</item>
+        <item>Musique</item>
+        <item>Outil</item>
+        <item>Poussière</item>
+        <item>Anneau</item>
+        <item>Magique</item>
+    </string-array>
+
+    <!--Buttons-->
+    <string name="Used_Button">[Bouton utilisé]</string>
+    <string name="Redo_Button">Refaire</string>
+    <string name="Again_Button">Générer de nouveaux mots</string>
+    <string name="Custom_Button">Utiliser sa propre liste de mots</string>
+    <string name="Info_Button">Info</string>
+    <!--About Dialog-->
+    <string name="About_Title">À propos</string>
+    <string name="About_Text">StoryGame est un jeu basé sur les StoryCubes. \n
+        Créez une histoire avec les mots qui sont affichés. Ces mots sont générés de manière aléatoire. \n
+        Interprétez les mots comme vous le souhaitez, c'est ce qui est si agréable dans ce jeu. \n
+        De plus, toutes les histoires sont bonnes ! \n
+        Vous pouvez jouer au jeu de la manière que vous voulez ; vous pouvez créer une histoire individuellement, mais dans un groupe, vous pouvez aussi choisir de laisser chacun⋅e ajouter quelque chose. \n
+        \n
+        Vous pouvez aussi utiliser vos propres listes de mots ! Comment faire :\n
+        - Cliquez sur le bouton "crayon".\n
+        - Sélectionnez un fichier texte contenant un mot par ligne. Celui-ci doit contenir au moins 17 mots.\n
+        - Jouez !\n
+        \n
+        === \n
+        \n
+        ©Privacy_Dragon, 2021-2023 \n
+        This game is licensed under the BSD 3-clause \'New\' or \'Revised\' License. \n
+        Consultez le code source et rapportez des bugs à : \n
+        https://github.com/PrivacyDragon/StoryGame_Android \n
+        \n
+        === \n
+        \n
+        Version: 1.2.0</string>
+</resources>
