@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "eu.webdragon.storygame"
-        minSdkVersion 19
-        targetSdkVersion 33
+        minSdkVersion 21
+        targetSdk 34
         versionCode 9
         versionName "1.2.0"
 
@@ -25,6 +25,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     namespace 'eu.webdragon.storygame'
+    compileSdk 34
 }
 
 dependencies {
