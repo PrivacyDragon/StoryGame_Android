@@ -1,0 +1,4 @@
+* Updated dependencies
+* Migrated to Material Design 3
+* French translation
+* Bugfix
