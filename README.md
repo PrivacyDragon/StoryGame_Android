@@ -2,6 +2,10 @@
 StoryGameCE ported to Android. <br>
 In this game the main goal is to make a story with the words you get. You can interpret the words in any way you like, that's what's so nice about the game. And also: every story is correct, no matter if it's logical or not. So have fun and tell stories! 
 
+It is currently available in Dutch, German, English, and French.
+Feel free to help translating it into other languages!<br/>
+[Suggest translations on SimpleLocalize](https://simplelocalize.io/suggestions/?id=7e44f2cf71b24afb956f0d12492b222f)
+
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
      height="80">](https://f-droid.org/packages/eu.webdragon.storygame/)
