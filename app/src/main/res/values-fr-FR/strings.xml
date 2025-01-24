@@ -24,7 +24,7 @@
         <item>Bière</item>
         <item>Lune</item>
         <item>Vaisseau spaciale</item>
-        <item>Feu d'artifice</item>
+        <item>Feu d\'artifice</item>
         <item>Volcan</item>
         <item>Tempête</item>
         <item>Poésie</item>
@@ -90,7 +90,7 @@
         <item>Mort</item>
         <item>Pêcheur⋅euse</item>
         <item>Serpent</item>
-        <item>R</oiitem>
+        <item>Roi</item>
         <item>Arc-en-ciel</item>
         <item>Neige</item>
         <item>Armure</item>
@@ -125,7 +125,7 @@
     <string name="About_Title">À propos</string>
     <string name="About_Text">StoryGame est un jeu basé sur les StoryCubes. \n
         Créez une histoire avec les mots qui sont affichés. Ces mots sont générés de manière aléatoire. \n
-        Interprétez les mots comme vous le souhaitez, c'est ce qui est si agréable dans ce jeu. \n
+        Interprétez les mots comme vous le souhaitez, c\'est ce qui est si agréable dans ce jeu. \n
         De plus, toutes les histoires sont bonnes ! \n
         Vous pouvez jouer au jeu de la manière que vous voulez ; vous pouvez créer une histoire individuellement, mais dans un groupe, vous pouvez aussi choisir de laisser chacun⋅e ajouter quelque chose. \n
         \n
