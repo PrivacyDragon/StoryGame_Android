@@ -121,6 +121,7 @@
     <string name="Again_Button">Générer de nouveaux mots</string>
     <string name="Custom_Button">Utiliser sa propre liste de mots</string>
     <string name="Info_Button">Info</string>
+    <string name="Close"></string>
     <!--About Dialog-->
     <string name="About_Title">À propos</string>
     <string name="About_Text">StoryGame est un jeu basé sur les StoryCubes. \n

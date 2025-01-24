@@ -127,6 +127,7 @@
     <string name="Again_Button">Neue Wörter</string>
     <string name="Custom_Button">Eigene Wortliste verwenden</string>
     <string name="Info_Button">Info</string>
+    <string name="Close">Schliesen</string>
     <!--About Dialog-->
     <!--Here is the dialog.
     This needs to be translated too, you can, if you want to, add a copyright mention for your translation.-->

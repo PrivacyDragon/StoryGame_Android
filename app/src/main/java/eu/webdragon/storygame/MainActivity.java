@@ -248,6 +248,13 @@ public class MainActivity extends AppCompatActivity {
         infoDialog.show();
         //I am sorry for the not really helpful comments in this function...
     }
+    //Now a function to close the info dialog.
+    public void closeInfo(View view) {
+        //The root view is the dialog.
+        View dialoog = view.getRootView();
+        //Set visibility to gone.
+        dialoog.setVisibility(View.GONE);
+    }
 
     //Again, a wild function appears!
     //What will it do?

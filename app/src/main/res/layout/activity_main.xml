@@ -7,14 +7,14 @@
     android:isScrollContainer="true"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
+    <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:theme="@style/ThemeOverlay.Material3.Toolbar.Surface"
         app:layout_constraintTop_toTopOf="parent"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:popupTheme="@style/ThemeOverlay.MaterialComponents.Toolbar.Surface" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="wrap_content"
@@ -37,112 +37,112 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent">
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[1]"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+                android:textAppearance="@style/TextAppearance.Material3.DisplaySmall" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[2]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[3]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[4]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[5]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/six"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[6]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/seven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[7]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/eight"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[8]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/nine"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[9]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/ten"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[10]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/eleven"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[11]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/twelve"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[12]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/thirteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[13]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/fourteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[14]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/fifteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="[15]"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:id="@+id/sixteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -170,203 +170,183 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button1"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button2"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button3"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button4"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button5"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button6"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button7"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button8"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button9"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button10"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button11"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button12"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button13"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button14"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button15"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:onClick="buttonPress"
                 android:text="Button" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/button16"
-                style="@style/Widget.AppCompat.Button"
-                android:layout_width="200dp"
-                android:layout_height="45dp"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="38dp"
                 android:onClick="buttonPress"
                 android:text="Button" />
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
         style="@android:style/Widget.Material.Button.Borderless.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:onClick="infoPress"
         android:text="@string/Info_Button"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.Material3.ActionBar.Title"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/AppLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textColor="#FFFFFF"
-        android:textSize="34sp"
-        android:textStyle="italic"
-        android:textAlignment="center"
-        android:layout_gravity="center_horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/imageButton"
-        android:layout_width="32dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@color/purple_500"
+        android:layout_marginTop="4dp"
         android:onClick="redoButton"
-        android:tint="#FFFFFF"
+        android:backgroundTint="?attr/colorPrimary"
         android:contentDescription="@string/Redo_Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_revert" />
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        app:tint="#FFFFFF" />
 
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
         android:contentDescription="@string/Again_Button"
         android:onClick="reSet"
-        android:tint="#F4C0B7"
+        android:backgroundTint="?attr/colorPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:srcCompat="@android:drawable/ic_popup_sync" />
 
-    <ImageButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/imageButton3"
-        android:layout_width="30dp"
-        android:layout_height="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary"
         android:contentDescription="@string/Custom_Button"
         android:onClick="StartCustomWords"
-        android:background="@color/purple_500"
-        app:srcCompat="@android:drawable/ic_menu_edit"
         app:layout_constraintStart_toEndOf="@id/imageButton2"
         app:layout_constraintTop_toTopOf="@id/imageButton2"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="8dp" />
+        app:srcCompat="@android:drawable/ic_menu_edit" />
 </androidx.constraintlayout.widget.ConstraintLayout>

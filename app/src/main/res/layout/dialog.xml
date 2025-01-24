@@ -1,30 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <LinearLayout
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/About_Title"
-            android:textAlignment="center"
-            android:layout_gravity="center_horizontal"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
-        <TextView
-            android:id="@+id/infoDialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:autoLink="web"
-            android:text="@string/About_Text"
-            android:textAlignment="center"
-            android:layout_gravity="center_horizontal"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-    </LinearLayout>
+        android:text="@string/About_Title"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/infoDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autoLink="web"
+        android:text="@string/About_Text"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:onClick="closeInfo"
+        android:text="@string/Close"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"/>
 </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
