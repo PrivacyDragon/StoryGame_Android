@@ -31,6 +31,9 @@ android {
         includeInBundle false
     }
     compileSdk 34
+    androidResources {
+        generateLocaleConfig true
+    }
 }
 
 dependencies {
