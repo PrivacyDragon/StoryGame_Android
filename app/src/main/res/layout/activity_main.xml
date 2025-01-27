@@ -340,7 +340,8 @@
         android:backgroundTint="?attr/colorPrimary"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:srcCompat="@android:drawable/ic_popup_sync" />
+        app:srcCompat="@android:drawable/ic_popup_sync"
+        app:tint="#CEA69F"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/imageButton3"
@@ -351,5 +352,6 @@
         android:onClick="StartCustomWords"
         app:layout_constraintStart_toEndOf="@id/imageButton2"
         app:layout_constraintTop_toTopOf="@id/imageButton2"
-        app:srcCompat="@android:drawable/ic_menu_edit" />
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        app:tint="#FFFFFF" />
 </androidx.constraintlayout.widget.ConstraintLayout>
